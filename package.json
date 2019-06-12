@@ -1,0 +1,35 @@
+{
+  "name": "flowjs-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow",
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuttasakcom/flowjs-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuttasakcom/flowjs-sample/issues"
+  },
+  "homepage": "https://github.com/yuttasakcom/flowjs-sample#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@types/koa": "^2.0.48",
+    "flow-bin": "^0.101.0",
+    "flow-typed": "^2.5.2",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
